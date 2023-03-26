@@ -1,0 +1,155 @@
+h2{
+    text-align: center;
+}
+
+.paralelogramo {
+    width: 150px; 
+    height: 200px; 
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+    margin: 50px;
+}
+
+.imgPara{
+    position: absolute;
+    width: 400px;
+}
+.card-group{
+    margin-bottom: 100px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+
+.subtitulo{
+    margin: 5%;
+    font-size:xx-large;
+}
+.letras{
+    font-size:24px;
+    color: white;
+    font-family: bold;
+
+}
+.btn{
+    background: #60361a;
+}
+
+
+
+
+#UltimoContainer {
+    font-family: tahoma;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  #UltimoContainer .our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  #UltimoContainer .our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  #UltimoContainer .our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #60361a;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  
+  #UltimoContainer .our-team:hover .picture::before {
+    height: 100%;
+  }
+  
+  #UltimoContainer .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #60361a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  #UltimoContainer .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }
+  
+  #UltimoContainer .our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+  }
+  
+  #UltimoContainer .our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+  }
+  
+  #UltimoContainer .our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #60361a;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  
+  #UltimoContainer .our-team:hover .social {
+    bottom: 0;
+  }
+  
+  #UltimoContainer .our-team .social li {
+    display: inline-block;
+  }
+  
+  #UltimoContainer .our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  #UltimoContainer .our-team .social li a:hover {
+    color: #60361a;
+    background-color: #f7f5ec;
+  }
+  
